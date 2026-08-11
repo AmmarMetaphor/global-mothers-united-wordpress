@@ -3,7 +3,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-$gmu_title = 'Global Mothers United — Empowering Mothers Worldwide';
+$gmu_title = 'Global Mothers United — Supporting Mothers Worldwide';
 get_header();
 ?>
 
@@ -12,8 +12,8 @@ get_header();
   <div class="wrap hero-grid">
     <div>
       <span class="eyebrow g rv">Global Mothers United</span>
-      <h1 class="rv d1">Mothers who <em>rise</em> together, lift the world.</h1>
-      <p class="hero-sub rv d2">A global community supporting mothers through programs, partnerships, and resources — from military families to mothers rebuilding their lives.</p>
+      <h1 class="rv d1">Mothers helping mothers <em>move forward.</em></h1>
+      <p class="hero-sub rv d2">Global Mothers United connects mothers with programs and support, including military families and mothers rebuilding after hardship.</p>
       <div class="hero-cta rv d2">
         <a class="btn btn-g" href="<?php echo esc_url( home_url( '/get-involved/' ) ); ?>">Get Involved <span class="arr">→</span></a>
         <a class="btn btn-ghost" href="<?php echo esc_url( home_url( '/programs/' ) ); ?>">Our Programs</a>
@@ -39,15 +39,15 @@ get_header();
   <div class="wrap mission-grid">
     <div>
       <span class="eyebrow g rv" style="border-color:rgba(29,185,84,.25)">Our Mission</span>
-      <h2 class="rv d1">Every mother deserves a community that shows up.</h2>
-      <p class="lede rv d2">We build programs, forge partnerships, and create pathways — for military mothers, mothers rebuilding after hardship, and every mother in between.</p>
+      <h2 class="rv d1">Mothers supporting mothers, in practice, not just theory.</h2>
+      <p class="lede rv d2">We run programs for military families, mothers rebuilding after hardship, and mothers building their careers and income.</p>
       <div class="rv d2" style="margin-top:26px"><a class="btn btn-g" href="<?php echo esc_url( home_url( '/programs/' ) ); ?>">Explore Programs <span class="arr">→</span></a></div>
     </div>
     <div class="pillars rv d1">
-      <div class="pill"><div><h3>Empowerment</h3><p>Financial literacy, leadership skills, and real pathways from hardship to stability.</p></div></div>
-      <div class="pill"><div><h3>Community</h3><p>A global network of mothers who show up for each other, every stage of life.</p></div></div>
-      <div class="pill"><div><h3>Military Families</h3><p>Dedicated support for mothers carrying the weight of military life.</p></div></div>
-      <div class="pill"><div><h3>Partnerships</h3><p>Working with Veterans Affairs, CPAs, NCATA, and community organisations.</p></div></div>
+      <div class="pill"><div><h3>Empowerment</h3><p>Financial literacy and leadership skills for mothers ready to rebuild.</p></div></div>
+      <div class="pill"><div><h3>Community</h3><p>A network of mothers who show up for each other.</p></div></div>
+      <div class="pill"><div><h3>Military Families</h3><p>Support built around the realities of military life.</p></div></div>
+      <div class="pill"><div><h3>Partnerships</h3><p>We work with Veterans Affairs, CPAs, NCATA, and community organizations.</p></div></div>
     </div>
   </div>
 </section>
@@ -56,7 +56,7 @@ get_header();
 <section>
   <div class="wrap">
     <span class="eyebrow g rv">Our Programs</span>
-    <h2 class="rv d1">Built for the mothers who need it <em>most.</em></h2>
+    <h2 class="rv d1">Three ways to get <em>support.</em></h2>
     <div class="prog-grid">
 
       <!-- Military Love & War — military stock photo -->
@@ -70,7 +70,7 @@ get_header();
           <div class="pc-body">
             <span class="ptag ptag-g">Military</span>
             <h3>Military Love & War</h3>
-            <p>Support, resources, and community for mothers carrying the weight of military family life.</p>
+            <p>Peer support and practical resources for mothers in military families.</p>
             <a class="btn btn-g" href="<?php echo esc_url( home_url( '/programs/' ) ); ?>" style="font-size:13px;padding:7px 6px 7px 15px;align-self:flex-start;margin-top:auto">Learn More <span class="arr" style="width:22px;height:22px;font-size:10px">→</span></a>
           </div>
         </div>
@@ -87,7 +87,7 @@ get_header();
           <div class="pc-body">
             <span class="ptag ptag-p">Empowerment</span>
             <h3>From Homeless to Billionaires</h3>
-            <p>Helping mothers rebuild financial confidence and community — from the ground up.</p>
+            <p>Financial coaching and community for mothers rebuilding after hardship.</p>
             <a class="btn btn-p" href="<?php echo esc_url( home_url( '/programs/' ) ); ?>" style="font-size:13px;padding:7px 6px 7px 15px;align-self:flex-start;margin-top:auto">Learn More <span class="arr" style="width:22px;height:22px;font-size:10px">→</span></a>
           </div>
         </div>
@@ -104,7 +104,7 @@ get_header();
           <div class="pc-body">
             <span class="ptag ptag-g">Leadership</span>
             <h3>Inner Circle 10X</h3>
-            <p>For mothers ready to scale their impact, income, and influence. October cohort now open.</p>
+            <p>A leadership program for mothers ready to grow their income and influence. October cohort now open.</p>
             <a class="btn btn-g" href="<?php echo esc_url( home_url( '/programs/' ) ); ?>" style="font-size:13px;padding:7px 6px 7px 15px;align-self:flex-start;margin-top:auto">Learn More <span class="arr" style="width:22px;height:22px;font-size:10px">→</span></a>
           </div>
         </div>
@@ -131,7 +131,7 @@ get_header();
 <section>
   <div class="wrap">
     <span class="eyebrow g rv">Upcoming Events</span>
-    <h2 class="rv d1">Where we show up <em>together.</em></h2>
+    <h2 class="rv d1">See what's <em>coming up.</em></h2>
     <div class="ev-list">
       <div class="ev-row rv">
         <div class="ev-date"><strong>23</strong>Jul 2026</div>
@@ -157,8 +157,8 @@ get_header();
 <div class="partner-band">
   <div class="wrap">
     <span class="eyebrow p rv">Partners & Collaborators</span>
-    <h2 class="rv d1" style="margin:0 auto;max-width:22ch;text-align:center">We work with organisations that share our values.</h2>
-    <p class="rv d2" style="color:var(--slate);margin:14px auto 30px;max-width:50ch;text-align:center">Veterans Affairs, CPAs, NCATA, Wadsworth community organisations, and more.</p>
+    <h2 class="rv d1" style="margin:0 auto;max-width:22ch;text-align:center">We work with organizations that share our values.</h2>
+    <p class="rv d2" style="color:var(--slate);margin:14px auto 30px;max-width:50ch;text-align:center">Veterans Affairs, CPAs, NCATA, Wadsworth community organizations, and more.</p>
     <div class="rv" style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
       <a class="btn btn-p" href="<?php echo esc_url( home_url( '/contact/' ) ); ?>">Become a Partner <span class="arr">→</span></a>
       <a class="btn btn-ghost" href="<?php echo esc_url( home_url( '/get-involved/' ) ); ?>">Get Involved</a>
@@ -169,9 +169,9 @@ get_header();
 <!-- FINAL CTA -->
 <section class="final">
   <div class="wrap final-inner">
-    <span class="eyebrow p rv" style="border-color:rgba(124,58,237,.3)">Join the Movement</span>
-    <h2 class="rv d1">There is a place for <em>you</em> here.</h2>
-    <p class="rv d2">Whether you are a mother seeking community, an organisation wanting to partner, or someone who wants to give back — we want to hear from you.</p>
+    <span class="eyebrow p rv" style="border-color:rgba(124,58,237,.3)">Join Us</span>
+    <h2 class="rv d1">Ready to get <em>involved?</em></h2>
+    <p class="rv d2">Reach out and tell us what you're looking for.</p>
     <div class="final-cta rv">
       <a class="btn btn-g" href="<?php echo esc_url( home_url( '/get-involved/' ) ); ?>">Get Involved <span class="arr">→</span></a>
       <a class="btn btn-p" href="<?php echo esc_url( home_url( '/contact/' ) ); ?>">Contact Us <span class="arr">→</span></a>

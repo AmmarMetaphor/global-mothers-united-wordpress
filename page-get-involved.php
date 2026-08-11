@@ -10,7 +10,7 @@ get_header();
 <header class="page"><div class="wrap">
 <span class="eyebrow g rv">Get Involved</span>
 <h1 class="rv d1">There is a place <em>for you</em> here.</h1>
-<p class="rv d2" style="color:var(--slate);font-size:18.5px;max-width:52ch;margin-top:18px">Whether you are a mother seeking community, an organisation ready to partner, or someone who simply wants to give back — we want to hear from you.</p>
+<p class="rv d2" style="color:var(--slate);font-size:18.5px;max-width:52ch;margin-top:18px">Whether you're a mother looking for community, an organization ready to partner, or someone who wants to help, we'd like to hear from you.</p>
 </div></header>
 
 <section style="padding-top:var(--space-md)"><div class="wrap">
@@ -20,28 +20,28 @@ get_header();
   <div class="way-shell rv">
     <div class="way">
       <h3>Join as a Member</h3>
-      <p>Become part of the Global Mothers United community. Access programs, events, and a global network of mothers who show up for each other.</p>
+      <p>Join programs, events, and a community of mothers who have each other's back.</p>
       <a class="btn btn-g" href="#join-form">Join the Community <span class="arr">→</span></a>
     </div>
   </div>
   <div class="way-shell rv d1">
     <div class="way">
       <h3>Partner With Us</h3>
-      <p>Nonprofits, CPAs, veterans organisations, schools, and community groups — if you share our values, let us build something together.</p>
+      <p>We partner with nonprofits, CPAs, veterans organizations, schools, and community groups working toward the same goals.</p>
       <a class="btn btn-p" href="#join-form">Become a Partner <span class="arr">→</span></a>
     </div>
   </div>
   <div class="way-shell rv">
     <div class="way dark">
       <h3>Volunteer</h3>
-      <p>Give your time, skills, or expertise. We are always looking for people who want to show up and make a difference in a mother's life.</p>
+      <p>Give your time or expertise. We're always looking for volunteers who want to help mothers directly.</p>
       <a class="btn" style="background:rgba(255,255,255,.12);color:#fff;padding:10px 20px" href="#join-form">Volunteer <span class="arr" style="background:rgba(255,255,255,.1)">→</span></a>
     </div>
   </div>
   <div class="way-shell rv d1">
     <div class="way dark">
       <h3>Invite Us to Speak</h3>
-      <p>Bring Global Mothers United to your event, school, organisation, or community. We speak on empowerment, military families, and financial resilience.</p>
+      <p>Bring Global Mothers United to your event, school, organization, or community. We speak on empowerment, military families, and financial resilience.</p>
       <a class="btn" style="background:rgba(29,185,84,.25);color:#fff;padding:10px 20px" href="#join-form">Book a Speaker <span class="arr" style="background:rgba(255,255,255,.1)">→</span></a>
     </div>
   </div>
@@ -79,7 +79,7 @@ get_header();
 <section class="fin"><div class="wrap">
 <span class="eyebrow p rv" style="border-color:rgba(124,58,237,.3)">Questions?</span>
 <h2 class="rv d1">Not sure where to start?</h2>
-<p class="rv d2">Reach out directly and we will help you find the right path in.</p>
+<p class="rv d2">Send us a message and we'll point you in the right direction.</p>
 <div class="fin-cta rv"><a class="btn btn-g" href="<?php echo esc_url( home_url( '/contact/' ) ); ?>">Contact Us <span class="arr">→</span></a></div>
 </div></section>
 

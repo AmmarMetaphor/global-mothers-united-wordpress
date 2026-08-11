@@ -10,7 +10,7 @@ get_header();
 <header class="page"><div class="wrap">
 <span class="eyebrow g rv">Events & Calendar</span>
 <h1 class="rv d1">Where we show up <em>together.</em></h1>
-<p class="rv d2" style="color:var(--slate);font-size:18.5px;max-width:50ch;margin-top:18px">Community nights, workshops, cohort launches, and partner events — all in one place. Free to attend unless noted.</p>
+<p class="rv d2" style="color:var(--slate);font-size:18.5px;max-width:50ch;margin-top:18px">Community nights, workshops, cohort launches, and partner events, all in one place. Free to attend unless noted.</p>
 <div class="filters rv">
   <button type="button" class="ftab on" data-filter="all" aria-pressed="true">All Events</button>
   <button type="button" class="ftab" data-filter="military" aria-pressed="false">Military</button>
@@ -48,7 +48,7 @@ get_header();
     <div class="ev-date-box"><div class="month">Jul</div><div class="day">23</div></div>
     <div class="ev-body">
       <h3>Military Love & War — Community Night</h3>
-      <p>A safe space for military mothers to connect, share stories, and find support. Open to all military-connected mothers and families.</p>
+      <p>A space for military mothers to connect, share stories, and find support. Open to all military-connected mothers and families.</p>
       <div class="ev-tags"><span class="etag etag-g">Military</span><span class="etag etag-g">Free</span><span class="etag etag-g">Zoom + In-Person</span></div>
     </div>
     <div class="ev-action"><a class="btn btn-g btn-sm" href="<?php echo esc_url( home_url( '/contact/' ) ); ?>">Register <span class="arr">→</span></a></div>
@@ -57,7 +57,7 @@ get_header();
     <div class="ev-date-box"><div class="month">Oct</div><div class="day">01</div></div>
     <div class="ev-body">
       <h3>Inner Circle 10X — October Cohort Opens</h3>
-      <p>Applications open for the flagship leadership program. Monthly cohort for mothers scaling their income and impact. Limited places.</p>
+      <p>Applications open for the flagship leadership program. Monthly cohort for mothers growing their income and impact. Limited places.</p>
       <div class="ev-tags"><span class="etag etag-p">Leadership</span><span class="etag etag-p">Application Required</span></div>
     </div>
     <div class="ev-action"><a class="btn btn-p btn-sm" href="<?php echo esc_url( home_url( '/contact/' ) ); ?>">Apply <span class="arr">→</span></a></div>
@@ -66,7 +66,7 @@ get_header();
     <div class="ev-date-box"><div class="month">TBA</div><div class="day" style="font-size:22px;padding-top:4px">Soon</div></div>
     <div class="ev-body">
       <h3>From Homeless to Billionaires — Full-Day Workshop</h3>
-      <p>A transformational full-day workshop for mothers rebuilding from hardship. Veterans Affairs and CPA partners in attendance. Limited seats.</p>
+      <p>A full-day workshop for mothers rebuilding from hardship. Veterans Affairs and CPA partners in attendance. Limited seats.</p>
       <div class="ev-tags"><span class="etag etag-p">Empowerment</span><span class="etag etag-g">Scholarship Available</span></div>
     </div>
     <div class="ev-action"><a class="btn btn-p btn-sm" href="<?php echo esc_url( home_url( '/contact/' ) ); ?>">Join Waitlist <span class="arr">→</span></a></div>
@@ -75,7 +75,7 @@ get_header();
     <div class="ev-date-box"><div class="month">TBA</div><div class="day" style="font-size:22px;padding-top:4px">Soon</div></div>
     <div class="ev-body">
       <h3>NCATA Community Partnership Event</h3>
-      <p>A collaborative event with NCATA and Wadsworth partners. Details to be announced — register interest to be notified.</p>
+      <p>An event with NCATA and Wadsworth partners. Details to be announced. Register your interest to be notified.</p>
       <div class="ev-tags"><span class="etag etag-g">Partner Event</span><span class="etag etag-g">Free</span></div>
     </div>
     <div class="ev-action"><a class="btn btn-g btn-sm" href="<?php echo esc_url( home_url( '/contact/' ) ); ?>">Notify Me <span class="arr">→</span></a></div>
@@ -86,7 +86,7 @@ get_header();
 <div class="cal-wrap rv">
   <div class="cal-inner">
     <h3>Full Calendar Coming Soon</h3>
-    <p>We are setting up an embedded calendar with all upcoming events, recurring community nights, and partner workshops. Check back soon or join our mailing list to be notified.</p>
+    <p>We're setting up a full calendar with all upcoming events, recurring community nights, and partner workshops. Check back soon, or join our mailing list to hear when it's ready.</p>
     <a class="btn btn-g" href="<?php echo esc_url( home_url( '/get-involved/' ) ); ?>">Join Mailing List <span class="arr">→</span></a>
   </div>
 </div>
@@ -96,7 +96,7 @@ get_header();
 <section class="fin"><div class="wrap">
 <span class="eyebrow p rv" style="border-color:rgba(124,58,237,.3)">Host With Us</span>
 <h2 class="rv d1">Want to bring Global Mothers United to your community?</h2>
-<p class="rv d2">We partner with organisations to host events, workshops, and community nights. Reach out to explore what we can build together.</p>
+<p class="rv d2">We partner with organizations to host events, workshops, and community nights. Reach out and let's talk about what that could look like.</p>
 <div class="fin-cta rv"><a class="btn btn-g" href="<?php echo esc_url( home_url( '/contact/' ) ); ?>">Partner With Us <span class="arr">→</span></a></div>
 </div></section>
 

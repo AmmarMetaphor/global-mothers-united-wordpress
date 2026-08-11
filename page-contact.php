@@ -10,7 +10,7 @@ get_header();
 <header class="page"><div class="wrap">
 <span class="eyebrow g rv">Contact Us</span>
 <h1 class="rv d1">We would love to <em>hear from you.</em></h1>
-<p class="rv d2" style="color:var(--slate);font-size:18.5px;max-width:50ch;margin-top:18px">Whether you are a mother seeking support, an organisation ready to partner, or someone who wants to get involved — reach out.</p>
+<p class="rv d2" style="color:var(--slate);font-size:18.5px;max-width:50ch;margin-top:18px">Whether you're a mother looking for support, an organization ready to partner, or someone who wants to get involved, reach out.</p>
 </div></header>
 
 <section style="padding-top:var(--space-md)"><div class="wrap">
@@ -21,7 +21,7 @@ get_header();
     <div class="contact-info rv d2">
       <div class="ci"><div><h3>Email Us</h3><a href="mailto:info@globalmothersunited.org">info@globalmothersunited.org</a></div></div>
       <div class="ci"><div><h3>Events & Calendar</h3><p>See our upcoming community events and workshops.</p><a href="<?php echo esc_url( home_url( '/events/' ) ); ?>">View Calendar →</a></div></div>
-      <div class="ci"><div><h3>Partnerships</h3><p>Veterans Affairs, CPAs, NCATA, and community organisations welcome.</p></div></div>
+      <div class="ci"><div><h3>Partnerships</h3><p>Veterans Affairs, CPAs, NCATA, and community organizations welcome.</p></div></div>
       <div class="ci"><div><h3>Programs</h3><p>Military Love & War · From Homeless to Billionaires · Inner Circle 10X</p></div></div>
     </div>
   </div>

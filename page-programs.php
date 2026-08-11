@@ -9,7 +9,7 @@ get_header();
 
 <header class="page"><div class="wrap">
 <h1 class="rv d1">Programs built for the mothers <em>who need it most.</em></h1>
-<p class="rv d2" style="color:var(--slate);font-size:18.5px;max-width:52ch;margin-top:18px">Three flagship programs. Each one built around a different chapter of a mother's life — and designed to meet her exactly where she is.</p>
+<p class="rv d2" style="color:var(--slate);font-size:18.5px;max-width:52ch;margin-top:18px">Three flagship programs, each built around a different chapter of a mother's life.</p>
 </div></header>
 
 <section style="padding-top:var(--space-md)"><div class="wrap">
@@ -21,12 +21,12 @@ get_header();
 <div class="prog-body">
 <span class="ptag ptag-g">Military Support</span>
 <h3>Military Love & War</h3>
-<p>Behind every service member is a mother holding the family together. This program is built for her — the mother navigating deployments, reunions, loss, and the unique emotional weight of military life.</p>
-<p>We partner with Veterans Affairs, community organizations, and peer support networks to ensure no military mother faces it alone.</p>
+<p>Behind every service member is a mother holding the family together. This program is for her, through deployments, reunions, and loss.</p>
+<p>We partner with Veterans Affairs, community organizations, and peer support networks so no military mother has to face it alone.</p>
 <div class="prog-detail">
 <div class="pd"><strong>Who it's for</strong>Mothers in active-duty, veteran, and military families</div>
 <div class="pd"><strong>Support</strong>Peer groups, resources, partner referrals, community events</div>
-<div class="pd"><strong>Partners</strong>Veterans Affairs, community organisations</div>
+<div class="pd"><strong>Partners</strong>Veterans Affairs, community organizations</div>
 <div class="pd"><strong>Cost</strong>Free to attend</div>
 </div>
 <a class="btn btn-g" href="<?php echo esc_url( home_url( '/get-involved/' ) ); ?>">Get Involved <span class="arr">→</span></a>
@@ -38,12 +38,12 @@ get_header();
 <div class="prog-body">
 <span class="ptag ptag-p">Empowerment</span>
 <h3>From Homeless to Billionaires</h3>
-<p>A transformational program for mothers who are rebuilding — from housing instability, financial hardship, or crisis — into stability, confidence, and community.</p>
+<p>A program for mothers rebuilding after housing instability, financial hardship, or crisis.</p>
 <p>We work alongside CPAs, financial coaches, and housing partners to give every mother a concrete path forward, not just inspiration.</p>
 <div class="prog-detail">
 <div class="pd"><strong>Who it's for</strong>Mothers rebuilding after hardship or housing instability</div>
 <div class="pd"><strong>Support</strong>Financial literacy, CPA referrals, peer coaching, workshops</div>
-<div class="pd"><strong>Partners</strong>CPA network, Wadsworth community organisations</div>
+<div class="pd"><strong>Partners</strong>CPA network, Wadsworth community organizations</div>
 <div class="pd"><strong>Cost</strong>Sliding scale / scholarship available</div>
 </div>
 <a class="btn btn-p" href="<?php echo esc_url( home_url( '/get-involved/' ) ); ?>">Apply Now <span class="arr">→</span></a>
@@ -55,7 +55,7 @@ get_header();
 <div class="prog-body">
 <span class="ptag ptag-g">Leadership</span>
 <h3>Inner Circle 10X</h3>
-<p>An elite leadership and community program for mothers who are ready to scale — their income, their influence, and their impact. Built around a $100K mindset and the support of a high-calibre inner circle.</p>
+<p>A leadership and community program for mothers ready to grow their income and their influence. Built around a $100K mindset and a high-caliber inner circle of support.</p>
 <p>Monthly cohorts. October 1st intake opens next. Limited places.</p>
 <div class="prog-detail">
 <div class="pd"><strong>Who it's for</strong>Mothers scaling their business or leadership presence</div>
@@ -72,7 +72,7 @@ get_header();
 <section class="fin"><div class="wrap">
 <span class="eyebrow p rv" style="border-color:rgba(124,58,237,.3)">Get Started</span>
 <h2 class="rv d1">Not sure which program is right for you?</h2>
-<p class="rv d2">Reach out and we will help you find the right fit — no pressure, just a conversation.</p>
+<p class="rv d2">Reach out and we'll help you find the right fit. No pressure, just a conversation.</p>
 <div class="fin-cta rv"><a class="btn btn-g" href="<?php echo esc_url( home_url( '/contact/' ) ); ?>">Contact Us <span class="arr">→</span></a><a class="btn btn-p" href="<?php echo esc_url( home_url( '/get-involved/' ) ); ?>">Get Involved <span class="arr">→</span></a></div>
 </div></section>
 
