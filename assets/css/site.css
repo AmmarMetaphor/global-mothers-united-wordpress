@@ -100,13 +100,14 @@ header.page{padding:100px 0 var(--space-lg)}
 .fin{background:var(--ink);color:#fff;text-align:center;padding:var(--space-2xl) 0;position:relative;overflow:hidden}
 .fin::after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 50% 0%,rgba(29,185,84,.17),transparent 55%);pointer-events:none}
 .fin h2{color:#fff;margin:0 auto;max-width:22ch;position:relative;z-index:1}
-.fin p{color:rgba(255,255,255,.62);margin:18px auto 36px;max-width:46ch;position:relative;z-index:1}
+.fin p{color:rgba(255,255,255,.62);margin:20px auto 36px;max-width:46ch;position:relative;z-index:1}
 .fin-cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;position:relative;z-index:1}
 
 /* ---- Shared centered CTA band (Home Partner Band, Media Speaking Band) ---- */
 .cta-band{background:var(--cream-deep);border-top:1px solid var(--hairline);border-bottom:1px solid var(--hairline);padding:var(--space-xl) 0;text-align:center}
-.cta-band h2{margin:0 auto;max-width:24ch}
-.cta-band p{color:var(--slate);margin:16px auto 32px;max-width:50ch;text-wrap:balance}
+.cta-band .eyebrow{margin-bottom:26px}
+.cta-band h2{margin:0 auto;max-width:24ch;line-height:1.12}
+.cta-band p{color:var(--slate);margin:22px auto 26px;max-width:50ch;line-height:1.55;text-wrap:balance}
 .cta-band .cta-row{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
 
 /* ---- Shared program/category badges (.ptag-g / .ptag-p) ---- */
@@ -216,7 +217,7 @@ header::before{content:"";position:absolute;bottom:-100px;left:-60px;width:380px
 .final::after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 50% 0%,rgba(29,185,84,.16),transparent 55%);pointer-events:none}
 .final-inner{position:relative;z-index:1}
 .final h2{color:#fff;margin:0 auto;max-width:22ch}
-.final p{color:rgba(255,255,255,.6);margin:16px auto 32px;max-width:46ch}
+.final p{color:rgba(255,255,255,.6);margin:20px auto 32px;max-width:46ch}
 .final-cta{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
 
 /* ---- Home page: sizing/spacing that is unique to the badge icons here ---- */
@@ -403,4 +404,7 @@ body.gmu-media .ptag.g:hover{background:var(--green-mid);color:#fff}
 
   .contact-grid{grid-template-columns:1fr;gap:40px}
   .fg{grid-template-columns:1fr}
+
+  .cta-band .eyebrow{margin-bottom:22px}
+  .cta-band p{margin:18px auto 22px}
 }
