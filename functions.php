@@ -8,6 +8,26 @@ function gmu_theme_setup() {
 }
 add_action( 'after_setup_theme', 'gmu_theme_setup' );
 
+function gmu_enqueue_assets() {
+    $theme = wp_get_theme();
+
+    wp_enqueue_style(
+        'gmu-site',
+        get_theme_file_uri( 'assets/css/site.css' ),
+        array(),
+        $theme->get( 'Version' )
+    );
+
+    wp_enqueue_script(
+        'gmu-site',
+        get_theme_file_uri( 'assets/js/site.js' ),
+        array(),
+        $theme->get( 'Version' ),
+        true
+    );
+}
+add_action( 'wp_enqueue_scripts', 'gmu_enqueue_assets' );
+
 function gmu_create_site_pages() {
     $pages = array(
         'home'         => 'Home',
