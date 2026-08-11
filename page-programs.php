@@ -17,7 +17,7 @@ get_header();
 <div class="prog-block">
 
 <div class="prog-row rv">
-<div class="prog-visual"><div class="prog-visual-inner g"><img class="prog-photo" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/programs/military-love-war.png' ) ); ?>" alt="A mother spending time with her children at home." width="1536" height="1024" loading="lazy" onerror="this.style.display='none'"></div></div>
+<div class="prog-visual"><div class="prog-visual-inner g"><img class="prog-photo" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/programs/military-love-war.jpg' ) ); ?>" alt="A mother spending time with her children at home." width="1536" height="1024" loading="lazy" onerror="this.style.display='none'"></div></div>
 <div class="prog-body">
 <span class="ptag ptag-g">Military Support</span>
 <h3>Military Love & War</h3>
@@ -34,7 +34,7 @@ get_header();
 </div>
 
 <div class="prog-row rev rv">
-<div class="prog-visual"><div class="prog-visual-inner p"><img class="prog-photo" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/programs/homeless-to-billionaires.png' ) ); ?>" alt="Two women reviewing financial plans together at a table." width="1536" height="1024" loading="lazy" onerror="this.style.display='none'"></div></div>
+<div class="prog-visual"><div class="prog-visual-inner p"><img class="prog-photo" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/programs/homeless-to-billionaires.jpg' ) ); ?>" alt="Two women reviewing financial plans together at a table." width="1536" height="1024" loading="lazy" onerror="this.style.display='none'"></div></div>
 <div class="prog-body">
 <span class="ptag ptag-p">Empowerment</span>
 <h3>From Homeless to Billionaires</h3>
@@ -51,7 +51,7 @@ get_header();
 </div>
 
 <div class="prog-row rv">
-<div class="prog-visual"><div class="prog-visual-inner g"><img class="prog-photo" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/programs/inner-circle-10x.png' ) ); ?>" alt="A group of women discussing ideas around a meeting table." width="1536" height="1024" loading="lazy" onerror="this.style.display='none'"></div></div>
+<div class="prog-visual"><div class="prog-visual-inner g"><img class="prog-photo" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/programs/inner-circle-10x.jpg' ) ); ?>" alt="A group of women discussing ideas around a meeting table." width="1536" height="1024" loading="lazy" onerror="this.style.display='none'"></div></div>
 <div class="prog-body">
 <span class="ptag ptag-g">Leadership</span>
 <h3>Inner Circle 10X</h3>
