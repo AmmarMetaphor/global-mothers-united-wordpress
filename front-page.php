@@ -9,7 +9,10 @@ get_header();
 
 <!-- HERO -->
 <header>
-  <div class="wrap hero-grid">
+  <div class="hero-wide hero-zones">
+    <div class="hero-logo-col rv d1">
+      <img class="hero-logo-img" src="<?php echo esc_url( get_theme_file_uri( 'assets/gmu-logo.jpg' ) ); ?>" alt="Global Mothers United logo">
+    </div>
     <div>
       <span class="eyebrow g rv">Global Mothers United</span>
       <h1 class="rv d1">Mothers helping mothers <em>move forward.</em></h1>

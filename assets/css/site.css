@@ -120,9 +120,31 @@ footer{background:var(--ink);border-top:1px solid var(--hairline-light);padding:
 header{padding:100px 0 var(--space-lg);position:relative;overflow:hidden}
 header::after{content:"";position:absolute;top:-160px;right:-160px;width:560px;height:560px;border-radius:999px;background:radial-gradient(circle,rgba(29,185,84,.13) 0%,transparent 70%);pointer-events:none}
 header::before{content:"";position:absolute;bottom:-100px;left:-60px;width:380px;height:380px;border-radius:999px;background:radial-gradient(circle,rgba(124,58,237,.08) 0%,transparent 70%);pointer-events:none}
-.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:52px;align-items:center}
+/* Hero-only wide container: intentionally distinct from .wrap so the rest
+   of the homepage (and every other page) keeps its existing 1200px column. */
+.hero-wide{width:min(94%,1500px);margin:0 auto;padding:0 56px}
+.hero-zones{display:grid;grid-template-columns:.6fr 1.3fr 1.1fr;gap:40px;align-items:center}
+.hero-logo-col{display:flex;justify-content:center}
+.hero-logo-img{display:block;width:100%;max-width:220px;aspect-ratio:1/1;object-fit:cover;border-radius:999px}
 .hero-sub{margin-top:18px;color:var(--slate);font-size:19px;max-width:46ch}
 .hero-cta{margin-top:var(--space-md);display:flex;gap:10px;flex-wrap:wrap}
+
+/* Hero responsive tiers — dedicated to the three-zone layout above,
+   independent of the sitewide 980px breakpoint used everywhere else. */
+@media(max-width:1300px){
+  .hero-wide{width:min(96%,1400px);padding:0 40px}
+  .hero-zones{grid-template-columns:.5fr 1.2fr 1.1fr;gap:28px}
+  .hero-logo-img{max-width:150px}
+}
+@media(max-width:860px){
+  .hero-wide{padding:0 32px}
+  .hero-zones{grid-template-columns:1fr;gap:36px}
+  .hero-logo-img{max-width:120px}
+}
+@media(max-width:540px){
+  .hero-wide{padding:0 20px}
+  .hero-logo-col{display:none}
+}
 
 .bento-wrap{background:rgba(13,31,15,.04);border:1px solid var(--hairline);border-radius:1.75rem;padding:7px}
 .bento-inner{border-radius:calc(1.75rem - 7px);overflow:hidden;background:var(--cream)}
@@ -344,7 +366,7 @@ body.gmu-media .ptag.g:hover{background:var(--green-mid);color:#fff}
   header.page{padding-bottom:var(--space-sm)}
   section{padding:var(--space-lg) 0}
 
-  .hero-grid,.mission-grid{grid-template-columns:1fr;gap:36px}
+  .mission-grid{grid-template-columns:1fr;gap:36px}
   .prog-grid{grid-template-columns:1fr}
   .stats-grid{grid-template-columns:1fr 1fr}
   .bento{grid-template-columns:1fr}.bc-big{grid-column:auto}
