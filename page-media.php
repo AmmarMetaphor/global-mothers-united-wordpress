@@ -82,7 +82,7 @@ get_header();
 <section class="fin"><div class="wrap">
 <span class="eyebrow p rv" style="border-color:rgba(124,58,237,.3)">Join Us</span>
 <h2 class="rv d1">Let's stay connected.</h2>
-<p class="rv d2">Find community, access programs, and connect with other mothers.</p>
+<p class="rv d2">Find community, access programs, and connect with mothers around the world.</p>
 <div class="fin-cta rv"><a class="btn btn-g" href="<?php echo esc_url( home_url( '/get-involved/' ) ); ?>">Get Involved <span class="arr">→</span></a><a class="btn btn-p" href="<?php echo esc_url( home_url( '/contact/' ) ); ?>">Contact Us <span class="arr">→</span></a></div>
 </div></section>
 
