@@ -10,7 +10,7 @@ get_header();
 <header class="page"><div class="wrap">
 <span class="eyebrow g rv">Contact Us</span>
 <h1 class="rv d1">We would love to <em>hear from you.</em></h1>
-<p class="rv d2" style="color:var(--slate);font-size:18.5px;max-width:50ch;margin-top:18px">Whether you're a mother looking for support, an organization ready to partner, or someone who wants to get involved, reach out.</p>
+<p class="page-lede rv d2">Whether you're a mother looking for support, an organization ready to partner, or someone who wants to get involved, reach out.</p>
 </div></header>
 
 <section style="padding-top:var(--space-md)"><div class="wrap">

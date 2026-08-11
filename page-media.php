@@ -10,7 +10,7 @@ get_header();
 <header class="page"><div class="wrap">
 <span class="eyebrow g rv">Media</span>
 <h1 class="rv d1">Podcasts, interviews, and <em>press.</em></h1>
-<p class="rv d2" style="color:var(--slate);font-size:18.5px;max-width:52ch;margin-top:18px">A home for podcast appearances, interviews, and press mentions as they come in.</p>
+<p class="page-lede rv d2">A home for podcast appearances, interviews, and press mentions as they come in.</p>
 </div></header>
 
 <section style="padding-top:var(--space-md)"><div class="wrap">
@@ -41,15 +41,15 @@ get_header();
 <div class="vid-grid">
   <div class="vid-shell rv"><div class="vid">
     <div class="vid-thumb g"><div class="play">▶</div><span class="vid-ph">Add YouTube or Vimeo link</span></div>
-    <div class="vid-body"><div class="src">Interview · Channel Name</div><h3>Interview title goes here</h3><p>Brief description: what you discussed and why it matters.</p><button type="button" class="btn-ghost btn" style="font-size:13px;padding:8px 18px">▶ Watch</button></div>
+    <div class="vid-body"><div class="src">Interview · Channel Name</div><h3>Interview title goes here</h3><p>Brief description: what you discussed and why it matters.</p><button type="button" class="btn-ghost btn" style="font-size:14px;padding:9px 18px">▶ Watch</button></div>
   </div></div>
   <div class="vid-shell rv d1"><div class="vid">
     <div class="vid-thumb p"><div class="play">▶</div><span class="vid-ph">Add YouTube or Vimeo link</span></div>
-    <div class="vid-body"><div class="src">Interview · Channel Name</div><h3>Interview title goes here</h3><p>Brief description: what you discussed and why it matters.</p><button type="button" class="btn-ghost btn" style="font-size:13px;padding:8px 18px">▶ Watch</button></div>
+    <div class="vid-body"><div class="src">Interview · Channel Name</div><h3>Interview title goes here</h3><p>Brief description: what you discussed and why it matters.</p><button type="button" class="btn-ghost btn" style="font-size:14px;padding:9px 18px">▶ Watch</button></div>
   </div></div>
   <div class="vid-shell rv d2"><div class="vid">
     <div class="vid-thumb g"><div class="play">▶</div><span class="vid-ph">Add YouTube or Vimeo link</span></div>
-    <div class="vid-body"><div class="src">Interview · Channel Name</div><h3>Interview title goes here</h3><p>Brief description: what you discussed and why it matters.</p><button type="button" class="btn-ghost btn" style="font-size:13px;padding:8px 18px">▶ Watch</button></div>
+    <div class="vid-body"><div class="src">Interview · Channel Name</div><h3>Interview title goes here</h3><p>Brief description: what you discussed and why it matters.</p><button type="button" class="btn-ghost btn" style="font-size:14px;padding:9px 18px">▶ Watch</button></div>
   </div></div>
 </div>
 </div></section>
@@ -60,7 +60,7 @@ get_header();
   <div class="press-row rv">
     <div class="press-pub"><span>Publication</span>Publication Name</div>
     <div><h3>Article or feature title goes here</h3><p>One-line summary of what the piece covers.</p></div>
-    <div style="display:flex;flex-direction:column;align-items:flex-end;gap:10px"><span class="press-date">Month YYYY</span><button type="button" class="btn-ghost btn" style="font-size:13px;padding:8px 16px">Read →</button></div>
+    <div style="display:flex;flex-direction:column;align-items:flex-end;gap:10px"><span class="press-date">Month YYYY</span><button type="button" class="btn-ghost btn" style="font-size:14px;padding:9px 16px">Read →</button></div>
   </div>
   <div class="press-row rv d1" style="opacity:.4">
     <div class="press-pub"><span>Publication</span>—</div>
@@ -70,12 +70,12 @@ get_header();
 </div>
 </div></section>
 
-<div class="speak-band">
+<div class="speak-band cta-band">
   <div class="wrap">
     <span class="eyebrow p rv">Speaking & Appearances</span>
-    <h2 class="rv d1" style="text-align:center;margin:0 auto;max-width:24ch">Want Global Mothers United on your podcast or panel?</h2>
-    <p class="rv d2" style="color:var(--slate);margin:18px auto 36px;max-width:50ch;text-align:center">We speak on military family support, financial empowerment, and community building.</p>
-    <div class="rv" style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap"><a class="btn btn-g" href="<?php echo esc_url( home_url( '/contact/' ) ); ?>">Get In Touch <span class="arr">→</span></a></div>
+    <h2 class="rv d1">Want Global Mothers United on your podcast or panel?</h2>
+    <p class="rv d2">We speak on military family support, financial empowerment, and community building.</p>
+    <div class="cta-row rv"><a class="btn btn-g" href="<?php echo esc_url( home_url( '/contact/' ) ); ?>">Get In Touch <span class="arr">→</span></a></div>
   </div>
 </div>
 

@@ -157,12 +157,12 @@ get_header();
 </section>
 
 <!-- PARTNER BAND -->
-<div class="partner-band">
+<div class="partner-band cta-band">
   <div class="wrap">
     <span class="eyebrow p rv">Partners & Collaborators</span>
-    <h2 class="rv d1" style="margin:0 auto;max-width:22ch;text-align:center">We work with organizations that share our values.</h2>
-    <p class="rv d2" style="color:var(--slate);margin:14px auto 30px;max-width:50ch;text-align:center">Veterans Affairs, CPAs, NCATA, Wadsworth community organizations, and more.</p>
-    <div class="rv" style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+    <h2 class="rv d1">We work with organizations that share our values.</h2>
+    <p class="rv d2">Veterans Affairs, CPAs, NCATA, Wadsworth community organizations, and more.</p>
+    <div class="cta-row rv">
       <a class="btn btn-p" href="<?php echo esc_url( home_url( '/contact/' ) ); ?>">Become a Partner <span class="arr">→</span></a>
       <a class="btn btn-ghost" href="<?php echo esc_url( home_url( '/get-involved/' ) ); ?>">Get Involved</a>
     </div>

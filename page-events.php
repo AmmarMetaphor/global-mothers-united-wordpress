@@ -10,7 +10,7 @@ get_header();
 <header class="page"><div class="wrap">
 <span class="eyebrow g rv">Events & Calendar</span>
 <h1 class="rv d1">Where we show up <em>together.</em></h1>
-<p class="rv d2" style="color:var(--slate);font-size:18.5px;max-width:50ch;margin-top:18px">Community nights, workshops, cohort launches, and partner events, all in one place. Free to attend unless noted.</p>
+<p class="page-lede rv d2">Community nights, workshops, cohort launches, and partner events, all in one place. Free to attend unless noted.</p>
 <div class="filters rv">
   <button type="button" class="ftab on" data-filter="all" aria-pressed="true">All Events</button>
   <button type="button" class="ftab" data-filter="military" aria-pressed="false">Military</button>
@@ -31,7 +31,7 @@ get_header();
       <div class="feat-meta"><span>Jul 23, 2026</span> &nbsp;·&nbsp; 6:00 PM EST &nbsp;·&nbsp; <span>Free</span> &nbsp;·&nbsp; Zoom + In-Person</div>
       <div class="feat-actions">
         <a class="btn btn-g" href="<?php echo esc_url( home_url( '/contact/' ) ); ?>">Reserve Your Spot <span class="arr">→</span></a>
-        <button type="button" class="btn" style="background:rgba(255,255,255,.1);color:#fff;padding:10px 20px">Add to Calendar</button>
+        <button type="button" class="btn" style="background:rgba(255,255,255,.1);color:#fff;padding:12px 20px">Add to Calendar</button>
       </div>
     </div>
     <div class="feat-side">

@@ -10,7 +10,7 @@ get_header();
 <header class="page"><div class="wrap">
 <span class="eyebrow g rv">Get Involved</span>
 <h1 class="rv d1">There is a place <em>for you</em> here.</h1>
-<p class="rv d2" style="color:var(--slate);font-size:18.5px;max-width:52ch;margin-top:18px">Whether you're a mother looking for community, an organization ready to partner, or someone who wants to help, we'd like to hear from you.</p>
+<p class="page-lede rv d2">Whether you're a mother looking for community, an organization ready to partner, or someone who wants to help, we'd like to hear from you.</p>
 </div></header>
 
 <section style="padding-top:var(--space-md)"><div class="wrap">
@@ -35,14 +35,14 @@ get_header();
     <div class="way dark">
       <h3>Volunteer</h3>
       <p>Give your time or expertise. We're always looking for volunteers who want to help mothers directly.</p>
-      <a class="btn" style="background:rgba(255,255,255,.12);color:#fff;padding:10px 20px" href="#join-form">Volunteer <span class="arr" style="background:rgba(255,255,255,.1)">→</span></a>
+      <a class="btn" style="background:rgba(255,255,255,.12);color:#fff;padding:12px 20px" href="#join-form">Volunteer <span class="arr" style="background:rgba(255,255,255,.1)">→</span></a>
     </div>
   </div>
   <div class="way-shell rv d1">
     <div class="way dark">
       <h3>Invite Us to Speak</h3>
       <p>Bring Global Mothers United to your event, school, organization, or community. We speak on empowerment, military families, and financial resilience.</p>
-      <a class="btn" style="background:rgba(29,185,84,.25);color:#fff;padding:10px 20px" href="#join-form">Book a Speaker <span class="arr" style="background:rgba(255,255,255,.1)">→</span></a>
+      <a class="btn" style="background:rgba(29,185,84,.25);color:#fff;padding:12px 20px" href="#join-form">Book a Speaker <span class="arr" style="background:rgba(255,255,255,.1)">→</span></a>
     </div>
   </div>
 </div>

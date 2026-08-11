@@ -9,7 +9,7 @@ get_header();
 
 <header class="page"><div class="wrap">
 <h1 class="rv d1">Programs built for the mothers <em>who need it most.</em></h1>
-<p class="rv d2" style="color:var(--slate);font-size:18.5px;max-width:52ch;margin-top:18px">Three flagship programs, each built around a different chapter of a mother's life.</p>
+<p class="page-lede rv d2">Three flagship programs, each built around a different chapter of a mother's life.</p>
 </div></header>
 
 <section style="padding-top:var(--space-md)"><div class="wrap">
