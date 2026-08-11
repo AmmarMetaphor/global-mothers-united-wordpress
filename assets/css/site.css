@@ -211,7 +211,17 @@ header::before{content:"";position:absolute;bottom:-100px;left:-60px;width:380px
 .ebadge-g{background:rgba(29,185,84,.1);color:var(--green-mid)}
 .ebadge-p{background:rgba(124,58,237,.09);color:var(--purple-soft)}
 
-/* .partner-band is styled via the shared .cta-band rules above. */
+/* ---- Partners & Collaborators: dedicated component, deterministic spacing ----
+   Uses a column flex container: flex-item siblings never margin-collapse,
+   so each gap below is exactly the declared value regardless of adjoining
+   element defaults. Intentionally decoupled from .cta-band so this section's
+   spacing can't be shifted by an unrelated shared-class edit again. */
+.partners-cta{background:var(--cream-deep);border-top:1px solid var(--hairline);border-bottom:1px solid var(--hairline);padding:var(--space-xl) 0;text-align:center}
+.partners-cta .wrap{display:flex;flex-direction:column;align-items:center}
+.partners-cta-eyebrow{margin:0 0 28px}
+.partners-cta-title{margin:0;max-width:24ch;line-height:1.12}
+.partners-cta-copy{margin:24px 0 0;max-width:50ch;color:var(--slate);line-height:1.55;text-wrap:balance}
+.partners-cta-actions{margin:30px 0 0;display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
 
 .final{background:var(--ink);color:#fff;text-align:center;position:relative;overflow:hidden}
 .final::after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 50% 0%,rgba(29,185,84,.16),transparent 55%);pointer-events:none}
@@ -407,4 +417,8 @@ body.gmu-media .ptag.g:hover{background:var(--green-mid);color:#fff}
 
   .cta-band .eyebrow{margin-bottom:22px}
   .cta-band p{margin:18px auto 22px}
+
+  .partners-cta-eyebrow{margin-bottom:24px}
+  .partners-cta-copy{margin-top:20px}
+  .partners-cta-actions{margin-top:24px}
 }
