@@ -13,7 +13,7 @@ get_header();
 <p class="rv d2" style="color:var(--slate);font-size:18.5px;max-width:52ch;margin-top:18px">Whether you are a mother seeking community, an organisation ready to partner, or someone who simply wants to give back — we want to hear from you.</p>
 </div></header>
 
-<section><div class="wrap">
+<section style="padding-top:var(--space-md)"><div class="wrap">
 <span class="eyebrow g rv">Ways to Join</span>
 <h2 class="rv d1">How would you like to <em>show up?</em></h2>
 <div class="ways-grid">

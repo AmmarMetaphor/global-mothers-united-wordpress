@@ -17,7 +17,6 @@ if ( ! defined( 'ABSPATH' ) ) {
       <span>Global Mothers United</span>
     </div>
     <div class="foot-links">
-      <a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a>
       <a href="<?php echo esc_url( home_url( '/programs/' ) ); ?>">Programs</a>
       <a href="<?php echo esc_url( home_url( '/events/' ) ); ?>">Events</a>
       <a href="<?php echo esc_url( home_url( '/get-involved/' ) ); ?>">Get Involved</a>

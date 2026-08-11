@@ -13,7 +13,7 @@ get_header();
 <p class="rv d2" style="color:var(--slate);font-size:18.5px;max-width:52ch;margin-top:18px">Three flagship programs. Each one built around a different chapter of a mother's life — and designed to meet her exactly where she is.</p>
 </div></header>
 
-<section><div class="wrap">
+<section style="padding-top:var(--space-md)"><div class="wrap">
 <div class="prog-block">
 
 <div class="prog-row rv">

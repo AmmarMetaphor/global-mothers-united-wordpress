@@ -13,7 +13,7 @@ get_header();
 <p class="rv d2" style="color:var(--slate);font-size:18.5px;max-width:50ch;margin-top:18px">Whether you are a mother seeking support, an organisation ready to partner, or someone who wants to get involved — reach out.</p>
 </div></header>
 
-<section style="padding-top:20px"><div class="wrap">
+<section style="padding-top:var(--space-md)"><div class="wrap">
 <div class="contact-grid">
   <div>
     <span class="eyebrow g rv">Get In Touch</span>

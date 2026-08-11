@@ -43,8 +43,7 @@ if ( is_page( 'programs' ) ) {
     <img src="<?php echo esc_url( get_theme_file_uri( 'assets/gmu-logo.jpg' ) ); ?>" alt="GMU">
     <span class="nav-wordmark">Global Mothers United</span>
   </a>
-  <div class="nav-links">
-    <a href="<?php echo esc_url( home_url( '/' ) ); ?>"<?php echo is_front_page() ? ' class="on"' : ''; ?>>Home</a>
+  <div class="nav-links" id="primary-nav-links">
     <a href="<?php echo esc_url( home_url( '/programs/' ) ); ?>"<?php echo is_page( 'programs' ) ? ' class="on"' : ''; ?>>Programs</a>
     <a href="<?php echo esc_url( home_url( '/events/' ) ); ?>"<?php echo is_page( 'events' ) ? ' class="on"' : ''; ?>>Events</a>
     <a href="<?php echo esc_url( home_url( '/get-involved/' ) ); ?>"<?php echo is_page( 'get-involved' ) ? ' class="on"' : ''; ?>>Get Involved</a>
@@ -52,4 +51,9 @@ if ( is_page( 'programs' ) ) {
     <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>"<?php echo is_page( 'contact' ) ? ' class="on"' : ''; ?>>Contact</a>
   </div>
   <a class="btn btn-g" href="<?php echo esc_url( home_url( '/get-involved/' ) ); ?>">Join Us <span class="arr">→</span></a>
+  <button type="button" class="nav-toggle" aria-controls="primary-nav-links" aria-expanded="false" aria-label="Menu">
+    <span class="nav-toggle-bar"></span>
+    <span class="nav-toggle-bar"></span>
+    <span class="nav-toggle-bar"></span>
+  </button>
 </nav>

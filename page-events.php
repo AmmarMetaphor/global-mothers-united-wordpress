@@ -20,7 +20,7 @@ get_header();
 </div>
 </div></header>
 
-<section style="padding-top:20px"><div class="wrap">
+<section style="padding-top:var(--space-md)"><div class="wrap">
 
 <!-- FEATURED -->
 <div class="feat rv">

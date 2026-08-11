@@ -13,7 +13,7 @@ get_header();
 <p class="rv d2" style="color:var(--slate);font-size:18.5px;max-width:52ch;margin-top:18px">Podcast appearances, video interviews, and press features from Global Mothers United — in one place.</p>
 </div></header>
 
-<section><div class="wrap">
+<section style="padding-top:var(--space-md)"><div class="wrap">
 <div class="divider rv"><span class="eyebrow g" style="margin:0">Podcast Episodes</span><div class="line"></div></div>
 <div class="pod-grid">
   <div class="pod-shell rv"><div class="pod">

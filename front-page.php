@@ -35,7 +35,7 @@ get_header();
 </header>
 
 <!-- MISSION -->
-<section class="mission">
+<section class="mission" style="padding-top:var(--space-md)">
   <div class="wrap mission-grid">
     <div>
       <span class="eyebrow g rv" style="border-color:rgba(29,185,84,.25)">Our Mission</span>
