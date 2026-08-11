@@ -19,10 +19,10 @@ get_header();
     <span class="eyebrow g rv">Get In Touch</span>
     <h2 class="rv d1">We are here.</h2>
     <div class="contact-info rv d2">
-      <div class="ci"><div class="ci-icon">📧</div><div><h3>Email Us</h3><a href="mailto:info@globalmothersunited.org">info@globalmothersunited.org</a></div></div>
-      <div class="ci"><div class="ci-icon">📅</div><div><h3>Events & Calendar</h3><p>See our upcoming community events and workshops.</p><a href="<?php echo esc_url( home_url( '/events/' ) ); ?>">View Calendar →</a></div></div>
-      <div class="ci"><div class="ci-icon">🤝</div><div><h3>Partnerships</h3><p>Veterans Affairs, CPAs, NCATA, and community organisations welcome.</p></div></div>
-      <div class="ci"><div class="ci-icon">🌍</div><div><h3>Programs</h3><p>Military Love & War · From Homeless to Billionaires · Inner Circle 10X</p></div></div>
+      <div class="ci"><div><h3>Email Us</h3><a href="mailto:info@globalmothersunited.org">info@globalmothersunited.org</a></div></div>
+      <div class="ci"><div><h3>Events & Calendar</h3><p>See our upcoming community events and workshops.</p><a href="<?php echo esc_url( home_url( '/events/' ) ); ?>">View Calendar →</a></div></div>
+      <div class="ci"><div><h3>Partnerships</h3><p>Veterans Affairs, CPAs, NCATA, and community organisations welcome.</p></div></div>
+      <div class="ci"><div><h3>Programs</h3><p>Military Love & War · From Homeless to Billionaires · Inner Circle 10X</p></div></div>
     </div>
   </div>
   <div class="form-shell rv d1">
@@ -37,13 +37,13 @@ get_header();
       <?php wp_nonce_field( 'gmu_contact_submit', 'gmu_contact_nonce' ); ?>
       <input type="text" name="website" value="" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;">
       <div class="fg">
-        <div class="field"><label>First Name</label><input type="text" name="first_name" placeholder="First name" required></div>
-        <div class="field"><label>Last Name</label><input type="text" name="last_name" placeholder="Last name" required></div>
-        <div class="field full"><label>Email</label><input type="email" name="email" placeholder="you@example.com" required></div>
-        <div class="field full"><label>I am reaching out as...</label>
-          <select name="role" required><option>A mother seeking community</option><option>A nonprofit / partner organisation</option><option>A CPA or financial professional</option><option>A veteran or military family</option><option>A journalist or media contact</option><option>Other</option></select>
+        <div class="field"><label for="contact-first-name">First Name</label><input type="text" id="contact-first-name" name="first_name" placeholder="First name" required></div>
+        <div class="field"><label for="contact-last-name">Last Name</label><input type="text" id="contact-last-name" name="last_name" placeholder="Last name" required></div>
+        <div class="field full"><label for="contact-email">Email</label><input type="email" id="contact-email" name="email" placeholder="you@example.com" required></div>
+        <div class="field full"><label for="contact-role">I am reaching out as...</label>
+          <select id="contact-role" name="role" required><option>A mother seeking community</option><option>A nonprofit / partner organisation</option><option>A CPA or financial professional</option><option>A veteran or military family</option><option>A journalist or media contact</option><option>Other</option></select>
         </div>
-        <div class="field full"><label>Message</label><textarea name="message" placeholder="Tell us how we can help or how you would like to get involved..." required></textarea></div>
+        <div class="field full"><label for="contact-message">Message</label><textarea id="contact-message" name="message" placeholder="Tell us how we can help or how you would like to get involved..." required></textarea></div>
         <div class="field full"><button type="submit" class="btn btn-g" style="font-size:16px;padding:14px 10px 14px 24px;width:100%;justify-content:center">Send Message <span class="arr" style="width:32px;height:32px;font-size:14px">→</span></button></div>
       </div>
     </form>

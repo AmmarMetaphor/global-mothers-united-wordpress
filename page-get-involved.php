@@ -19,7 +19,6 @@ get_header();
 <div class="ways-grid">
   <div class="way-shell rv">
     <div class="way">
-      <div class="way-icon">🌍</div>
       <h3>Join as a Member</h3>
       <p>Become part of the Global Mothers United community. Access programs, events, and a global network of mothers who show up for each other.</p>
       <a class="btn btn-g" href="#join-form">Join the Community <span class="arr">→</span></a>
@@ -27,7 +26,6 @@ get_header();
   </div>
   <div class="way-shell rv d1">
     <div class="way">
-      <div class="way-icon">🤝</div>
       <h3>Partner With Us</h3>
       <p>Nonprofits, CPAs, veterans organisations, schools, and community groups — if you share our values, let us build something together.</p>
       <a class="btn btn-p" href="#join-form">Become a Partner <span class="arr">→</span></a>
@@ -35,7 +33,6 @@ get_header();
   </div>
   <div class="way-shell rv">
     <div class="way dark">
-      <div class="way-icon">💛</div>
       <h3>Volunteer</h3>
       <p>Give your time, skills, or expertise. We are always looking for people who want to show up and make a difference in a mother's life.</p>
       <a class="btn" style="background:rgba(255,255,255,.12);color:#fff;padding:10px 20px" href="#join-form">Volunteer <span class="arr" style="background:rgba(255,255,255,.1)">→</span></a>
@@ -43,7 +40,6 @@ get_header();
   </div>
   <div class="way-shell rv d1">
     <div class="way dark">
-      <div class="way-icon">🎤</div>
       <h3>Invite Us to Speak</h3>
       <p>Bring Global Mothers United to your event, school, organisation, or community. We speak on empowerment, military families, and financial resilience.</p>
       <a class="btn" style="background:rgba(29,185,84,.25);color:#fff;padding:10px 20px" href="#join-form">Book a Speaker <span class="arr" style="background:rgba(255,255,255,.1)">→</span></a>
@@ -66,14 +62,14 @@ get_header();
     <?php wp_nonce_field( 'gmu_join_submit', 'gmu_join_nonce' ); ?>
     <input type="text" name="website" value="" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;">
     <div class="form-grid">
-      <div class="field"><label>First Name</label><input type="text" name="first_name" placeholder="Your first name" required></div>
-      <div class="field"><label>Last Name</label><input type="text" name="last_name" placeholder="Your last name" required></div>
-      <div class="field"><label>Email Address</label><input type="email" name="email" placeholder="you@example.com" required></div>
-      <div class="field"><label>Phone (optional)</label><input type="tel" name="phone" placeholder="+1 (000) 000-0000"></div>
-      <div class="field full"><label>How would you like to get involved?</label>
-        <select name="involvement" required><option>Join as a Member</option><option>Partner with GMU</option><option>Volunteer</option><option>Invite GMU to Speak</option><option>Apply for a Program</option><option>Other</option></select>
+      <div class="field"><label for="join-first-name">First Name</label><input type="text" id="join-first-name" name="first_name" placeholder="Your first name" required></div>
+      <div class="field"><label for="join-last-name">Last Name</label><input type="text" id="join-last-name" name="last_name" placeholder="Your last name" required></div>
+      <div class="field"><label for="join-email">Email Address</label><input type="email" id="join-email" name="email" placeholder="you@example.com" required></div>
+      <div class="field"><label for="join-phone">Phone (optional)</label><input type="tel" id="join-phone" name="phone" placeholder="+1 (000) 000-0000"></div>
+      <div class="field full"><label for="join-involvement">How would you like to get involved?</label>
+        <select id="join-involvement" name="involvement" required><option>Join as a Member</option><option>Partner with GMU</option><option>Volunteer</option><option>Invite GMU to Speak</option><option>Apply for a Program</option><option>Other</option></select>
       </div>
-      <div class="field full"><label>Tell us a little about yourself or your organisation</label><textarea name="message" placeholder="A few sentences about who you are and how you'd like to connect..." required></textarea></div>
+      <div class="field full"><label for="join-message">Tell us a little about yourself or your organisation</label><textarea id="join-message" name="message" placeholder="A few sentences about who you are and how you'd like to connect..." required></textarea></div>
       <div class="field full" style="margin-top:8px"><button type="submit" class="btn btn-g" style="font-size:16px;padding:14px 10px 14px 24px;width:100%;justify-content:center">Submit <span class="arr" style="width:32px;height:32px;font-size:14px">→</span></button></div>
     </div>
   </form>

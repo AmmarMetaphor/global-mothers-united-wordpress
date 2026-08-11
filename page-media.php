@@ -14,10 +14,10 @@ get_header();
 </div></header>
 
 <section style="padding-top:var(--space-md)"><div class="wrap">
-<div class="divider rv"><span class="eyebrow g" style="margin:0">Podcast Episodes</span><div class="line"></div></div>
+<div class="divider rv"><h2 class="eyebrow g" style="margin:0">Podcast Episodes</h2><div class="line"></div></div>
 <div class="pod-grid">
   <div class="pod-shell rv"><div class="pod">
-    <div class="pod-thumb" style="background:linear-gradient(135deg,#0F9B45,#0D1F0F)">🎙️</div>
+    <div class="pod-thumb" style="background:linear-gradient(135deg,#0F9B45,#0D1F0F)"></div>
     <div class="pod-body">
       <div class="show">Podcast Name Here</div>
       <h3>Episode title — add your first appearance</h3>
@@ -26,7 +26,7 @@ get_header();
     </div>
   </div></div>
   <div class="pod-shell rv d1"><div class="pod" style="border:2px dashed var(--hairline);background:rgba(13,31,15,.02);box-shadow:none">
-    <div class="pod-thumb" style="background:rgba(13,31,15,.06);border:1px dashed var(--hairline)">🎙️</div>
+    <div class="pod-thumb" style="background:rgba(13,31,15,.06);border:1px dashed var(--hairline)"></div>
     <div class="pod-body">
       <div class="show" style="color:var(--slate)">Add Podcast Episode</div>
       <h3 style="color:var(--slate);font-size:15px">Show name, episode title, date, and link</h3>
@@ -37,30 +37,30 @@ get_header();
 </div></section>
 
 <section style="padding-top:0;background:var(--cream-deep)"><div class="wrap" style="padding-top:80px;padding-bottom:80px">
-<div class="divider rv"><span class="eyebrow p" style="margin:0">Video Interviews</span><div class="line"></div></div>
+<div class="divider rv"><h2 class="eyebrow p" style="margin:0">Video Interviews</h2><div class="line"></div></div>
 <div class="vid-grid">
   <div class="vid-shell rv"><div class="vid">
     <div class="vid-thumb g"><div class="play">▶</div><span class="vid-ph">Add YouTube or Vimeo link</span></div>
-    <div class="vid-body"><div class="src">Interview · Channel Name</div><h3>Interview title goes here</h3><p>Brief description — what you discussed and why it matters.</p><a class="btn-ghost btn" style="font-size:13px;padding:8px 18px">▶ Watch</a></div>
+    <div class="vid-body"><div class="src">Interview · Channel Name</div><h3>Interview title goes here</h3><p>Brief description — what you discussed and why it matters.</p><button type="button" class="btn-ghost btn" style="font-size:13px;padding:8px 18px">▶ Watch</button></div>
   </div></div>
   <div class="vid-shell rv d1"><div class="vid">
     <div class="vid-thumb p"><div class="play">▶</div><span class="vid-ph">Add YouTube or Vimeo link</span></div>
-    <div class="vid-body"><div class="src">Interview · Channel Name</div><h3>Interview title goes here</h3><p>Brief description — what you discussed and why it matters.</p><a class="btn-ghost btn" style="font-size:13px;padding:8px 18px">▶ Watch</a></div>
+    <div class="vid-body"><div class="src">Interview · Channel Name</div><h3>Interview title goes here</h3><p>Brief description — what you discussed and why it matters.</p><button type="button" class="btn-ghost btn" style="font-size:13px;padding:8px 18px">▶ Watch</button></div>
   </div></div>
   <div class="vid-shell rv d2"><div class="vid">
     <div class="vid-thumb g"><div class="play">▶</div><span class="vid-ph">Add YouTube or Vimeo link</span></div>
-    <div class="vid-body"><div class="src">Interview · Channel Name</div><h3>Interview title goes here</h3><p>Brief description — what you discussed and why it matters.</p><a class="btn-ghost btn" style="font-size:13px;padding:8px 18px">▶ Watch</a></div>
+    <div class="vid-body"><div class="src">Interview · Channel Name</div><h3>Interview title goes here</h3><p>Brief description — what you discussed and why it matters.</p><button type="button" class="btn-ghost btn" style="font-size:13px;padding:8px 18px">▶ Watch</button></div>
   </div></div>
 </div>
 </div></section>
 
 <section style="padding-top:0"><div class="wrap" style="padding-top:80px">
-<div class="divider rv"><span class="eyebrow g" style="margin:0">Press & Articles</span><div class="line"></div></div>
+<div class="divider rv"><h2 class="eyebrow g" style="margin:0">Press & Articles</h2><div class="line"></div></div>
 <div class="press-list">
   <div class="press-row rv">
     <div class="press-pub"><span>Publication</span>Publication Name</div>
     <div><h3>Article or feature title goes here</h3><p>One-line summary of what the piece covers.</p></div>
-    <div style="display:flex;flex-direction:column;align-items:flex-end;gap:10px"><span class="press-date">Month YYYY</span><a class="btn-ghost btn" style="font-size:13px;padding:8px 16px">Read →</a></div>
+    <div style="display:flex;flex-direction:column;align-items:flex-end;gap:10px"><span class="press-date">Month YYYY</span><button type="button" class="btn-ghost btn" style="font-size:13px;padding:8px 16px">Read →</button></div>
   </div>
   <div class="press-row rv d1" style="opacity:.4">
     <div class="press-pub"><span>Publication</span>—</div>

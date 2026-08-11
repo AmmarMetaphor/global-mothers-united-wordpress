@@ -8,16 +8,16 @@ get_header();
 ?>
 
 <header class="page"><div class="wrap">
-<span class="eyebrow g rv">Our Programs</span>
 <h1 class="rv d1">Programs built for the mothers <em>who need it most.</em></h1>
 <p class="rv d2" style="color:var(--slate);font-size:18.5px;max-width:52ch;margin-top:18px">Three flagship programs. Each one built around a different chapter of a mother's life — and designed to meet her exactly where she is.</p>
 </div></header>
 
 <section style="padding-top:var(--space-md)"><div class="wrap">
+<h2 class="sr-only">Our Programs</h2>
 <div class="prog-block">
 
 <div class="prog-row rv">
-<div class="prog-visual"><div class="prog-visual-inner g"><div class="icon">🎖️</div><span class="tag g">Military Love & War</span></div></div>
+<div class="prog-visual"><div class="prog-visual-inner g"><span class="tag g">Military Love & War</span></div></div>
 <div class="prog-body">
 <span class="ptag ptag-g">Military Support</span>
 <h3>Military Love & War</h3>
@@ -34,7 +34,7 @@ get_header();
 </div>
 
 <div class="prog-row rev rv">
-<div class="prog-visual"><div class="prog-visual-inner p"><div class="icon">🏠</div><span class="tag p">From Homeless to Billionaires</span></div></div>
+<div class="prog-visual"><div class="prog-visual-inner p"><span class="tag p">From Homeless to Billionaires</span></div></div>
 <div class="prog-body">
 <span class="ptag ptag-p">Empowerment</span>
 <h3>From Homeless to Billionaires</h3>
@@ -51,7 +51,7 @@ get_header();
 </div>
 
 <div class="prog-row rv">
-<div class="prog-visual"><div class="prog-visual-inner g"><div class="icon">👑</div><span class="tag g">Inner Circle 10X</span></div></div>
+<div class="prog-visual"><div class="prog-visual-inner g"><span class="tag g">Inner Circle 10X</span></div></div>
 <div class="prog-body">
 <span class="ptag ptag-g">Leadership</span>
 <h3>Inner Circle 10X</h3>

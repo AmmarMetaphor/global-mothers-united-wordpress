@@ -11,7 +11,7 @@ get_header();
 <header>
   <div class="wrap hero-grid">
     <div>
-      <span class="eyebrow g rv">🌍 Global Mothers United</span>
+      <span class="eyebrow g rv">Global Mothers United</span>
       <h1 class="rv d1">Mothers who <em>rise</em> together, lift the world.</h1>
       <p class="hero-sub rv d2">A global community supporting mothers through programs, partnerships, and resources — from military families to mothers rebuilding their lives.</p>
       <div class="hero-cta rv d2">
@@ -44,10 +44,10 @@ get_header();
       <div class="rv d2" style="margin-top:26px"><a class="btn btn-g" href="<?php echo esc_url( home_url( '/programs/' ) ); ?>">Explore Programs <span class="arr">→</span></a></div>
     </div>
     <div class="pillars rv d1">
-      <div class="pill"><div class="pill-icon">💪</div><div><h3>Empowerment</h3><p>Financial literacy, leadership skills, and real pathways from hardship to stability.</p></div></div>
-      <div class="pill"><div class="pill-icon">🤝</div><div><h3>Community</h3><p>A global network of mothers who show up for each other, every stage of life.</p></div></div>
-      <div class="pill"><div class="pill-icon">🎖️</div><div><h3>Military Families</h3><p>Dedicated support for mothers carrying the weight of military life.</p></div></div>
-      <div class="pill"><div class="pill-icon">🌱</div><div><h3>Partnerships</h3><p>Working with Veterans Affairs, CPAs, NCATA, and community organisations.</p></div></div>
+      <div class="pill"><div><h3>Empowerment</h3><p>Financial literacy, leadership skills, and real pathways from hardship to stability.</p></div></div>
+      <div class="pill"><div><h3>Community</h3><p>A global network of mothers who show up for each other, every stage of life.</p></div></div>
+      <div class="pill"><div><h3>Military Families</h3><p>Dedicated support for mothers carrying the weight of military life.</p></div></div>
+      <div class="pill"><div><h3>Partnerships</h3><p>Working with Veterans Affairs, CPAs, NCATA, and community organisations.</p></div></div>
     </div>
   </div>
 </section>

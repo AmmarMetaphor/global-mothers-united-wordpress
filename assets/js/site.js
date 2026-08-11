@@ -43,3 +43,26 @@ if ( navToggle && navLinks ) {
 		}
 	} );
 }
+
+// Events page category filter (plain DOM APIs, no framework).
+const filterButtons = document.querySelectorAll( '.ftab[data-filter]' );
+const eventCards = document.querySelectorAll( '.ev-card[data-category]' );
+
+if ( filterButtons.length && eventCards.length ) {
+	filterButtons.forEach( function ( button ) {
+		button.addEventListener( 'click', function () {
+			const filter = button.getAttribute( 'data-filter' );
+
+			filterButtons.forEach( function ( btn ) {
+				const isActive = btn === button;
+				btn.classList.toggle( 'on', isActive );
+				btn.setAttribute( 'aria-pressed', String( isActive ) );
+			} );
+
+			eventCards.forEach( function ( card ) {
+				const matches = filter === 'all' || card.getAttribute( 'data-category' ) === filter;
+				card.hidden = ! matches;
+			} );
+		} );
+	} );
+}
